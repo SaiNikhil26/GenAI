@@ -1,0 +1,13 @@
+for i in range(len(my_list)): print(my_list[i])
+
+if len(my_list) > 0: return True
+
+result = "" for item in items:  result = result + item
+
+def calculate_average(numbers):
+    total = sum(numbers)
+    avg = total / len(numbers)  
+    return average  
+
+numbers = [10, 20, 30, 40, 50]
+print("Average:", calculate_average(numbers))
